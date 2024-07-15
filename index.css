@@ -1,0 +1,100 @@
+/* Reset de estilos básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilos gerais */
+body {
+    background-color: #2b2727; /* Cor de fundo geral */
+    font-family: Arial, Helvetica, sans-serif;
+    color: #fff; /* Cor do texto geral */
+    padding: 20px;
+}
+
+.center {
+    text-align: center;
+}
+
+/* Estilos do cabeçalho */
+header {
+    background-color: #333; /* Cor de fundo do cabeçalho */
+    color: #5bb242; /* Cor do texto do cabeçalho */
+    padding: 20px 0;
+    text-align: center;
+}
+
+header img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 5px solid rgb(246, 250, 3); /* Cor da borda da imagem */
+    margin-bottom: 10px; /* Espaçamento inferior da imagem */
+}
+
+header h1 {
+    margin-bottom: 20px; /* Espaçamento inferior do título */
+}
+
+/* Estilos da navegação */
+nav {
+    text-align: center;
+    margin-bottom: 20px; /* Espaçamento inferior da navegação */
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color:rgb(246, 250, 3); /* Cor dos links da navegação */
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Estilos do conteúdo principal */
+main {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+section {
+    padding: 20px;
+    margin-bottom: 20px;
+    background-color: #444; /* Cor de fundo das seções */
+    border-radius: 5px;
+}
+
+section h2 {
+    margin-bottom: 10px;
+}
+
+section p {
+    color: #fff;
+}
+
+/* Estilos do rodapé */
+footer {
+    text-align: center;
+    margin-top: 20px; /* Espaçamento superior do rodapé */
+    
+}
+
+footer img {
+    width: 20px;
+    height: 20px;
+    margin-right: 5px; /* Espaçamento direito da imagem do rodapé */
+    color: #fff;
+}
