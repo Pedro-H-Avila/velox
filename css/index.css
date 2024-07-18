@@ -1,11 +1,11 @@
-/* Reset de estilos básico */
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+      margin-top: 0%;
 }
 
-/* Estilos gerais */
 body {
     background-color: #2b2727; /* Cor de fundo geral */
     font-family: Arial, Helvetica, sans-serif;
@@ -17,7 +17,6 @@ body {
     text-align: center;
 }
 
-/* Estilos do cabeçalho */
 header {
     background-color: #333; /* Cor de fundo do cabeçalho */
     color: #5bb242; /* Cor do texto do cabeçalho */
@@ -25,7 +24,7 @@ header {
     text-align: center;
 }
 
-header img {
+header imag {
     width: 150px;
     height: 150px;
     border-radius: 50%;
@@ -92,7 +91,7 @@ footer {
     
 }
 
-footer img {
+footer imag {
     width: 40px;
     height: 40px;
     margin-right: 5px; /* Espaçamento direito da imagem do rodapé */
